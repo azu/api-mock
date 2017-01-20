@@ -7,11 +7,17 @@
 
 API-Mock is a [node.js](http://nodejs.org/) [npm](https://npmjs.org/) module that generates a mock server (express) from your API specification. Document your API in the [API blueprint](http://apiblueprint.org/) format, and API-Mock mocks your routes and sends the responses defined in the api spec.
 
+# NOTICE
+
+IT IS FORK FOR SUPPORTING NODE.js v6.
+
+- https://github.com/localmed/api-mock/pull/56
+
 # Install
 
 API-Mock requires node.js, and npm.
 
-    npm install -g api-mock
+    npm install -g @azu/api-mock
 
 ## Installing from source
 
